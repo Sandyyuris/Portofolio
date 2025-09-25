@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandy - UI/UX Designer & Web Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Portfolio</h1>
+            <nav>
+                <ul id="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skill">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="mobile-menu" id="mobile-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="container-home">
+            <div class="home-content">
+                <div class="title-home">
+                    <p>UI/UX Designer & Web Developer</p>
+                </div>
+                <h2>Hello, I'm Sandy</h2>
+                <p>Saya seorang Desainer UI/UX & Pengembang Web yang berbasis di Indonesia. Saya memiliki keinginan untuk menciptakan situs web yang indah dan fungsional yang memberikan pengalaman pengguna yang luar biasa.</p>
+                <a href="#about" class="btn-home">About Me</a>
+            </div>
+            
+            <div class="home-image">
+                <div class="image-container">
+                    <div class="slider">
+                        <div class="slides">
+                            <img src="assets/images/download.jpg" alt="Sandy Profile 1">
+                            <img src="assets/images/download 1.jpg" alt="Sandy Profile 2">
+
+                        </div>
+                        <button class="btn prev" onclick="changeSlide(-1)">&#10094;</button>
+                        <button class="btn next" onclick="changeSlide(1)">&#10095;</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="fade-in">
+        <div class="about-content">
+            <h2>About Me</h2>
+            <p>Saya Adalah Mahasiswa Universitas Jember, Fakultas Ilmu Komputer, Program Studi Informatika, yang saat ini menempuh semester 3</p>
+        </div>
+    </section>
+
+    <section id="skill" class="fade-in">
+        <div class="services-content">
+            <h2>Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>UI/UX Design</h3>
+                    <p>Menciptakan antarmuka pengguna yang intuitif dan menarik dengan fokus pada pengalaman pengguna dan prinsip desain modern.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Web Development</h3>
+                    <p>Membangun situs web yang responsif dan berkinerja menggunakan teknologi modern dan praktik terbaik.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Frontend Development</h3>
+                    <p>Mengembangkan aplikasi web interaktif dan dinamis dengan React, Vue.js, dan JavaScript.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="fade-in">
+        <div class="contact-content">
+            <h2>Get In Touch</h2>
+            <p>Ready to start your next project? Let's work together to create something amazing!</p>
+            <div style="margin-top: 2rem;">
+                <a href="mailto:sandy@email.com" class="btn-home">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Sandy. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
